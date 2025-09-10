@@ -57,3 +57,19 @@ Angular CLI does not come with an end-to-end testing framework by default. You c
 ## Additional Resources
 
 For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+
+
+
+<!-- NGRX -->
+
+
+IN THIS IF WE HAVE MULTIPLE REDUCER SO WE CAN  IMPORT HERE ONLY LIKE BELOW EXAMPLE 
+
+
+
+-for single reducer
+provideStore({counter:counterReducer})
+
+-for multiple reducer
+provideStore({counter:counterReducer , auth : authReducer})
