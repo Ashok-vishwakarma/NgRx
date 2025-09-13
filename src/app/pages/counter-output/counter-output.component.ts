@@ -32,6 +32,8 @@ export class CounterOutputComponent {
   // }
 
 
+
+  //.select('counter') means:"Pick the slice of state whose key is 'counter'".
   constructor(private store: Store<{ counter: number }>) {
     this.count = this.store.select('counter')
     // this.count$.subscribe()

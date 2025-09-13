@@ -9,6 +9,7 @@ const initialStage = 0
 //     // import action and use in on() provide by NgRx ,  state wil get automatically state value from ngrx
 //     //  props ke jaga ham kuch bhi naam de sakte hain.or hame wo props meim data component 
 //     // se pass hoke action se phir reducer mein milega 
+
 //     on(countAction, (state, props) => state + props.value)
 
 // )
